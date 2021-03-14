@@ -39,7 +39,7 @@ app.route("/api/notes")
         }
         //creates Id numbers for the notes 
 
-        createNote.id = number + 1;
+        createNote.id = aNumber + 1;
         database.push(createNote)
 
         //when the note is saves it tells the user the note is not saved
@@ -62,6 +62,9 @@ app.get("/", function (req, res) {
 app.get("/notes", function (req, res) {
     res.sendFile(path.join(__dirname, "./public/notes.html"));
 })
+app.get("*", function (req, res) {
+    res.sendFile(path.join(_direname, "./public/index.html"))
+});
 
 
 //port listener

@@ -4,7 +4,7 @@
 
 ## Description
 
-This is a way for the user to write and take notes
+This site was created to help the user write and take notes. It is a simple application but functional. The user can write a note and save it. 
 
 ## Table of Contents 
 
@@ -34,7 +34,7 @@ npm i
 
 ## Usage
 
-It was deployed in GitHub and Heroku
+The object of this assignment was to make the backend connect to the front end using Express. The application was deployed in GitHub and Heroku. 
 
 ## License
 
@@ -51,6 +51,10 @@ To run tests, run the following command:
 ```
 npm test
 ```
+
+## Problems
+
+The bonus for the assignment was to connect the delete button to the application so that notes could be deleted. Due to time constraints this was not accomplished but the rest of the application is working. Eventually I will work on the delete button but I am happy that this application works. 
 
 ## Questions
 
