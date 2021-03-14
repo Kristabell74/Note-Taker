@@ -52,6 +52,14 @@ To run tests, run the following command:
 npm test
 ```
 
+## GitHub and WebLink
+
+https://github.com/Kristabell74/Note-Taker.git
+
+https://afternoon-bastion-47240.herokuapp.com/
+
+
+
 ## Problems
 
 The bonus for the assignment was to connect the delete button to the application so that notes could be deleted. Due to time constraints this was not accomplished but the rest of the application is working. Eventually I will work on the delete button but I am happy that this application works. 
